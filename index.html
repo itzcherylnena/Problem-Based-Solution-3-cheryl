@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Silent Thirst Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>💧 Silent Thirst</h1>
+
+  <div class="goal-setter">
+    <input type="number" id="goalInput" placeholder="Set goal (ml)">
+    <button onclick="setGoal()">Set Goal</button>
+  </div>
+
+  <h2 id="goalDisplay">Goal: 2000 ml</h2>
+
+  <div class="buttons">
+    <button onclick="addWater(250)">+250ml</button>
+    <button onclick="addWater(500)">+500ml</button>
+  </div>
+
+  <div class="progress-container">
+    <div id="progressBar"></div>
+  </div>
+
+  <p id="progressText">0% completed</p>
+  <p id="remainingText">Remaining: 2000 ml</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
