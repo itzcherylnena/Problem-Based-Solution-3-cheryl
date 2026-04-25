@@ -61,3 +61,10 @@ body {
     background: #00bcd4;
     transition: width 0.3s ease;
   }
+  .reset-btn {
+  background-color: #f44336;
+}
+
+.reset-btn:hover {
+  background-color: #c62828;
+}
